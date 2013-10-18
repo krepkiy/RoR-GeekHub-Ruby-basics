@@ -5,8 +5,8 @@ puts 'ПРИВЕТ,ДЕТКА!'
 vnyk = gets.chomp
   while vnyk != 'POKA'
     while vnyk != vnyk.downcase and vnyk != 'POKA'
-    puts 'АСЬ?! ГОВОРИ ГРОМЧЕ, ДЕТКА!'
-    vnyk = gets.chomp
+        puts 'АСЬ?! ГОВОРИ ГРОМЧЕ, ДЕТКА!'
+        vnyk = gets.chomp
     end
        if vnyk != 'POKA' 
          god = 1930+rand(21)
